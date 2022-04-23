@@ -7,25 +7,37 @@
 body {
     background-color: #eae2b7;
 }
-
 a {
     text-decoration: none;
 }
 .header {
-    height: 200px;
     background-color: #d62828;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 16px;
 }
+.header-logo {
+    margin-left: 50px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+.header-logo a {
+    color: white;
+}
+.header-logo a:hover {
+    color: #fcbf49;
+}
+.right-nav {
+    display: flex;
 
+}
 .right-nav a {
     color: white;
     text-transform: uppercase;
     font-size: 18px;
+    padding: 20px;
 }
-
 .right-nav a:hover {
     background-color: #f77f00;
 }
@@ -33,11 +45,6 @@ a {
 
 
 
-.header-logo {
-    color: #fff;
-    font-size: 30px;
-    font-weight: bold;
-}
 .intro {
     background-color: #003049;
     padding: 50px 50px;
@@ -53,17 +60,22 @@ a {
 .intro-image img {
     height: auto;
     width: 500px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .heading {
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 48px;
+    font-weight: 900;
     color: #fcbf49;
     margin-bottom: 20px;
 }
 .info {
     text-align: center;
     margin: 25px;
+}
+.info-head {
+    font-size: 36px;
+    font-weight: 900;
+    color: #003049;
 }
 .info-container {
     display: flex;
@@ -88,8 +100,21 @@ a {
     font-weight: bold;
     font-size: larger;
 }
-.action {
+.quote {
     background-color: #f77f00;
+    color: white; 
+    padding: 75px 150px;
+}
+.quote-text {
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Antic Slab';
+}
+.quote-attrib {
+    text-align: right;
+    font-style: italic;
+    font-size: 18px;
+    margin: 10px;
 }
 .footer {
     background-color: #003049;
