@@ -1,5 +1,9 @@
 # odin-landing-page
 
+## Live URL
+
+https://itswhom.github.io/odin-landing-page/
+
 ## Image Sources
 
 [Big Brother is Watching You](https://press.princeton.edu/books/hardcover/9780691182742/becoming-george-orwell)
