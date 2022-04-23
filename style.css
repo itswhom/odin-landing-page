@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #eae2b7;
+    background-color: #f7f3da;
 }
 a {
     text-decoration: none;
@@ -30,7 +30,7 @@ a {
 }
 .right-nav {
     display: flex;
-
+    margin-right: 50px;
 }
 .right-nav a {
     color: white;
@@ -47,7 +47,7 @@ a {
 
 .intro {
     background-color: #003049;
-    padding: 50px 50px;
+    padding: 50px;
     display: flex;
     align-items: center;
 }
@@ -69,25 +69,30 @@ a {
     margin-bottom: 20px;
 }
 .info {
-    text-align: center;
-    margin: 25px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 50px;
 }
 .info-head {
     font-size: 36px;
     font-weight: 900;
     color: #003049;
+    margin-bottom: 50px;
 }
 .info-container {
     display: flex;
     justify-content: center;
-    height: 600px;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 .info-item {
     text-align: center;
-    margin: 25px;
+    margin: 0 50px;
+}
+.info-item a {
+    color: #003049;
 }
 .info-item img {
     border-radius: 15px;
@@ -103,7 +108,7 @@ a {
 .quote {
     background-color: #f77f00;
     color: white; 
-    padding: 75px 150px;
+    padding: 100px 150px;
 }
 .quote-text {
     font-size: 36px;
@@ -115,6 +120,46 @@ a {
     font-style: italic;
     font-size: 18px;
     margin: 10px;
+}
+.action-container {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.action {
+    border-radius: 15px;
+    background-color: #d62828;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+.action-heading {
+    font-size: xx-large;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.action button {
+    margin: 15px;
+    padding: 15px 30px;
+    white-space: nowrap;
+    border: 2px solid white;
+    background-color: #d62828;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 18px;
+}
+.action button:hover {
+    background-color: white;
+    color: #d62828;
+}
+.hate-text {
+    color: white;
+    font-size: larger;
 }
 .footer {
     background-color: #003049;
